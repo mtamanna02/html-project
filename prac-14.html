@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>styling link</title>
+	<style type="text/css">
+		#nav-menu{
+			width: 600px;
+			height: 150px;
+			background-color: #639e63;
+			margin: 0 auto;
+		}
+		#nav-menu ul{}
+		#nav-menu ul li{}
+		#nav-menu ul li:nth-child(3) a {
+			font-size: 25px;
+			color: pink;
+		}
+		#nav-menu ul li{
+			list-style: square;
+			margin: 10px;
+			/*float: left;*/
+		}
+		#nav-menu ul li a{
+			text-decoration: none;
+			cursor: crosshair;
+		}
+		#nav-menu ul li:first-child a:nth-child(1) {
+			color: lightgreen;
+		}
+		#nav-menu ul li a:hover{
+			text-decoration: underline;
+		}
+
+	</style>
+</head>
+<body>
+	<div id="nav-menu">
+		<ul>
+			<li>
+				<a href="#">Home</a>
+				<a href="#">Second</a>
+				<a href="#">Third</a>
+				<a href="#">Fourth</a>
+			</li>
+			<li><a href="#">contact</a></li>
+			<li><a href="#">About</a></li>
+			<li><a href="#">Continue</a></li>
+		</ul>
+	</div>
+
+</body>
+</html>
